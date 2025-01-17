@@ -1,0 +1,15 @@
+﻿@using CoreMVC.Models.AppSettingConfigModels
+
+@model EmailConfig
+@{
+	ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+	<h1 class="display-4">Welcome</h1>
+	<p>Your Application is Running On: @Model.EnvName</p>
+	<p>Your Sending Email Is: @Model.Email
+	<p>Your Sending UserName Is: @Model.UserName
+
+	<p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
